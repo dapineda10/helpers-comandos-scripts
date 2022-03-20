@@ -1,27 +1,20 @@
 ------------Terminal------------
---Abrir terminal.
+--Open terminal.
 Ctrl+Ñ
---Para detener los procesos
+--Stop processes
 Ctrl+C
---------------------------------
 
 ------------Angular------------
---Instalación de angular de forma global.
+--Install Angular global.
 npm install -g @angular/cli
---Crear un nuevo proyecto.
-ng new nombre-proyecto
---Ejecutar la aplicacion
+--Create a new project.
+ng new <nombre-proyecto>
+--Ejecute app
 ng serve -o (ng serve --open)
--------------------------------
---------Instalar angular material-----------
-
-
-
-
---Crear un nuevo componente en el sistema
-ng g c frm_macroruta/frm_macroruta
---Crear un servicio de angular
-ng g s nomcarpetacreada/nombrecomponente/nombrecomponentedenuevo
---Crear modulo
-ng g m nomcarpetacreada/nombremodulo --routing
-ng g m geoaseo/administracion/frm_microruta --routing
+--Create new component
+ng g c <frm_macroruta/frm_macroruta>
+--Create new service
+ng g s <nomcarpetacreada/nombrecomponente/nombrecomponentedenuevo>
+--Create new module
+ng g m <nomcarpetacreada/nombremodulo> --routing
+ng g m <geoaseo/administracion/frm_microruta> --routing
